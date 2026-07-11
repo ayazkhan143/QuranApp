@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Quran",
+    "slug": "quran-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/quran-app-icon.png",
+    "scheme": "quranapp",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#062E2A",
+    "ios": {
+      "icon": "./assets/images/quran-app-icon.png",
+      "bundleIdentifier": "com.ayazkhan143.quranapp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ayazkhan143.quranapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#062E2A",
+        "foregroundImage": "./assets/images/quran-app-icon.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/quran-app-icon.png",
+      "themeColor": "#062E2A"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#062E2A",
+          "image": "./assets/images/quran-app-icon.png",
+          "imageWidth": 160
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
